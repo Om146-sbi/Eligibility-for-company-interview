@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #222;
+    margin: 0;
+    padding: 2rem;
+}
+
+.eligibility-section {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+}
+
+.eligibility-section h2 {
+    margin-bottom: 1.25rem;
+    color: #034078;
+    text-align: center;
+    font-weight: 700;
+}
+
+.criteria-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.criteria-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    color: #034078;
+}
+
+.criteria-list li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 1;
+}
